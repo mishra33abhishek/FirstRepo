@@ -1,0 +1,27 @@
+Hi, i was created using cat command
+> symbol before file name creates file.
+
+cat creates, views, copies, concatenate, etc files
+ create as:   cat > filename.txt   n press control D after writing inside file
+ 
+ cat *.txt
+ cat fileName  >  fileName rerplaces content
+   cat name1 >> name2   appends
+   
+   thr 4 sections in git are:   untracked section of files; the modified and unodified one and stages section....  the changes to be commied will be only for stages section. make sure all modified files are staged so changes ca ba made..
+   
+   note:snapshot is taken only when git commit command is run
+   
+   
+command_echo appends text inside a file
+
+we can add directory to .gitignore
+also empty folders are not tracked by git.
+
+example  echo dir/ >> .gitignore
+
+now; if static/dir/ xyz.txt is path....  whole static folder will be ignored as dir is ignoreed and then static is empty
+
+but if static has 2 files,  dir and abc.txt  then it wont be  ignored....
+
+
